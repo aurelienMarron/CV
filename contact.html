@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+    <title>CONTACT</title>
+  </head>
+
+  <body>
+    <div class="menu">
+      <span style="position: absolute; left: 60px">
+        <a href="./index.html">cv</a></span
+      >
+      <span style="position: absolute; left: 700px">
+        <a href="./hobby.html">hobby</a></span
+      >
+      <span style="position: absolute; right: 60px">
+        <a href="./contact.html">contact</a></span
+      >
+    </div>
+    <h1>CONTACT</h1>
+
+    <span style="position: absolute; top: 200px; left: 450px">
+      <p>
+        Je reste à votre disposition pour toutes questions complémentaires ou
+        pour échanger.
+      </p>
+    </span>
+
+    <span style="position: absolute; top: 300px; left: 650px">
+      <a
+        href="mailto:aurelien.marron@le-campus-numerique.fr?subject=Questions"
+        title=""
+        >M'envoyer un mail</a
+      >
+    </span>
+
+    <span style="position: absolute; top: 400px; left: 550px">
+      <form action="https://httpbin.org/get" method="get">
+        <div>
+          <label for="name">Nom :</label>
+          <input type="name" id="name" name="user_name" required/>
+        </div>
+        <div>
+          <label for="mail">e-mail :</label>
+          <input type="email" id="mail" name="user_mail" required />
+        </div>
+        <div>
+          <select name="sujet" id="select subject">
+            <option value="">veuillez choisir un sujet</option>
+            <option value="question">Question</option>
+            <option value="propostion d'emploi">Proposition d'emploi</option>
+            <option value="remarque sur le site">Remarque sur le site</option>
+          </select>
+        </div>
+        <div>
+          <label for="msg">Message :</label>
+          <textarea id="msg" name="user_message" required></textarea>
+        </div>
+        <div class="button">
+          <button type="submit">Envoyer le message</button>
+        </div>
+        <div class="button">
+          <button type="cancel">Annuler</button>
+        </div>
+      </form></span
+    >
+  </body>
+</html>
